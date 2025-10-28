@@ -40,3 +40,4 @@ print(f"Car Rental Charge: ₹{calculate_rental(car1):.2f}\n")
 
 print(bike1.display_details())
 print(f"Bike Rental Charge: ₹{calculate_rental(bike1):.2f}")
+print (globals())
