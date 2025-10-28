@@ -32,7 +32,7 @@ admin_user = Admin("Abhi", 2020)
 guest_user = Guest("Riya", 2023)
 
 print(f"Role: {admin_user.get_role()}, Account Age: {admin_user.account_age()} years")
-print(admin_user)   # Calls __str__()
+print(admin_user)   
 
 print(f"Role: {guest_user.get_role()}, Account Age: {guest_user.account_age()} years")
-print(guest_user)   # Calls __str__()
+print(guest_user) 
